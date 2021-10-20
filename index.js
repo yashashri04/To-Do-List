@@ -1,5 +1,5 @@
 if(localStorage.getItem("todo")===null){
-    localStorage.setItem("todo",[]);
+    localStorage.setItem("todo",JSON.stringify([]));
 }
 
 showList();
