@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(255, 255, 245),purple) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-container{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.input-field{
+    margin: 2rem 0;
+}
+
+.input-field input{
+    width: 39vw;
+    background: none;
+    border: none;
+    border-bottom: 0.12rem solid black;
+    padding: 2px 10px;
+    font-size: 18px;
+   
+}   
+.input-field input:focus{
+    outline: none;
+}
+
+.list-container {
+    margin: auto;
+    width: 46vw;
+    max-height: 70vh;
+    overflow: auto;
+}
+#addBtn{
+    width: 4.5rem;
+    height: 2rem;
+    margin: 0 4px;
+    border: none;
+    cursor: pointer;
+    background:crimson;
+    color: white;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 1px;
+}
+#addBtn:hover{
+   background:rgb(175, 12, 45);
+}
+
+.list-ele{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 5px 10px;
+    margin: 3px 0;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    font-size: 17px;
+}
+
+.actionBtn{
+    border: none;
+    background: none;
+    margin:0 4px;
+    
+}
+#validation{
+  display: none;
+  margin-bottom: 4px;
+  color: red;
+  font-size: 18px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+ 
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+@media screen and (max-width: 360px) {
+    .input-field input{
+        width: 60vw;
+    }   
+    .list-container {
+        width: 80vw;
+        max-height: 70vh;
+    }
+    
+  }
+  
+
+
+ 
